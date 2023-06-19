@@ -1,0 +1,9 @@
+.App header,
+footer {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.App footer {
+  font-size: 13px;
+}
