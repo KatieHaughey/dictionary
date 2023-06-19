@@ -1,6 +1,5 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
-import "./Dictionary.css";
 
 function App() {
   return (
