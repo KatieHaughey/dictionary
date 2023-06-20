@@ -5,9 +5,11 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header>Dictionary app</header>
+        <header>
+          <h1>Dictionary app</h1>
+        </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultWord="forest" />
         </main>
         <footer>
           Coded by <strong>Katie Haughey</strong>

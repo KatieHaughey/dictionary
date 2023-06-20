@@ -1,0 +1,8 @@
+.phonetics a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.phonetics a:hover {
+  text-decoration: underline;
+}

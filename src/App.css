@@ -4,6 +4,20 @@ footer {
   text-align: center;
 }
 
+.App h1 {
+  font-weight: bold;
+  font-size: 42px;
+  padding: 30px;
+}
+
 .App footer {
   font-size: 13px;
+}
+
+a {
+  color: olivedrab;
+}
+
+body {
+  background-color: rgb(230, 235, 219);
 }

@@ -1,3 +1,16 @@
-.search {
+.Dictionary .search {
   text-align: center;
+}
+
+.Dictionary input {
+  width: 100%;
+  color: #333;
+}
+
+.Dictionary section {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+  margin: 20px 0;
 }
