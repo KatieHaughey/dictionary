@@ -4,7 +4,7 @@ import "./Phonetics.css";
 export default function Phonetics(props) {
   return (
     <div className="phonetics">
-      <a href="{props.phonetics.audio}" target="_blank">
+      <a href="{props.phonetics.audio}" target="_blank" rel="noreferrer">
         Listen
       </a>
       {props.phonetics.text}

@@ -12,7 +12,22 @@ function App() {
           <Dictionary defaultWord="forest" />
         </main>
         <footer>
-          Coded by <strong>Katie Haughey</strong>
+          Coded by{" "}
+          <a
+            href="https://www.katiehaughey.com"
+            target="_blank"
+            rel="norefferer"
+          >
+            <strong>Katie Haughey</strong>
+          </a>{" "}
+          and is open sourced on{" "}
+          <a
+            href="https://github.com/KatieHaughey/dictionary"
+            target="_blank"
+            rel="norefferer"
+          >
+            GitHub
+          </a>
         </footer>
       </div>
     </div>
