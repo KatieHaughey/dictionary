@@ -16,7 +16,7 @@ function App() {
           <a
             href="https://www.katiehaughey.com"
             target="_blank"
-            rel="norefferer"
+            rel="noopener noreferrer"
           >
             <strong>Katie Haughey</strong>
           </a>{" "}
@@ -24,7 +24,7 @@ function App() {
           <a
             href="https://github.com/KatieHaughey/dictionary"
             target="_blank"
-            rel="norefferer"
+            rel="noopener noreferrer"
           >
             GitHub
           </a>

@@ -15,7 +15,6 @@ export default function Dictionary(props) {
   }
 
   function handleSheCodesResponse(response) {
-    console.log(response.data.photos);
     setPhotos(response.data.photos);
   }
 
@@ -46,13 +45,14 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <section>
-          <form className="search" onSubmit={handleSubmit}>
+          <form id="searchEngine" className="search" onSubmit={handleSubmit}>
             <div className="row">
               <div className="col-9">
                 <input
                   type="search"
                   placeholder="Enter a word..."
                   onChange={changeWord}
+                  name="search"
                 />
               </div>
               <div className="col-3">
