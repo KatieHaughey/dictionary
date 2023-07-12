@@ -53,6 +53,7 @@ export default function Dictionary(props) {
                   placeholder="Enter a word..."
                   onChange={changeWord}
                   name="search"
+                  autoComplete="off"
                 />
               </div>
               <div className="col-3">
