@@ -6,8 +6,21 @@ footer {
 
 .App h1 {
   font-weight: bold;
-  font-size: 42px;
-  padding: 30px;
+  font-size: 62px;
+  padding: 60px;
+  color: white;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgb(107, 142, 35, 0.9),
+      rgba(24, 35, 0, 0.9)
+    ),
+    url("../images/dictionary.jpg");
+  background-position: center;
+  background-size: 100%;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+  margin: 20px 0;
 }
 
 .App footer {
@@ -20,7 +33,7 @@ footer {
 }
 
 a {
-  color: olivedrab;
+  color: #6b8e23;
   text-decoration: none;
 }
 
